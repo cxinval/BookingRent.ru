@@ -151,4 +151,16 @@
       </clipPath>
     </defs>
   </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 20" id="calendar">
+    <path d="M1.06702 7.83688H15.9203" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12.1915 11.0915H12.1992" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8.49365 11.0915H8.50137" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4.78802 11.0915H4.79574" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12.1915 14.3303H12.1992" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8.49365 14.3303H8.50137" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4.78802 14.3303H4.79574" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M11.8596 1.66675V4.40906" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M5.1277 1.66675V4.40906" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0217 2.98267H4.96561C2.51837 2.98267 0.989807 4.34594 0.989807 6.85185V14.3932C0.989807 16.9385 2.51837 18.3333 4.96561 18.3333H12.014C14.4689 18.3333 15.9898 16.9622 15.9898 14.4563V6.85185C15.9975 4.34594 14.4767 2.98267 12.0217 2.98267Z" stroke="#130F26" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
 </svg>

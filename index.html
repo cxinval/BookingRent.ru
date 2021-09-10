@@ -20,7 +20,7 @@
             <div class="headerUp">
                 <a href="#" class="headerUp__logo">
                     <svg class="headerUp__logo-img">
-                        <use xlink:href="img/icons.svg#logo"></use>
+                        <use href="img/icons.svg#logo"></use>
                     </svg>
                 </a>
                 <div class="headerUp__links">
@@ -74,12 +74,12 @@
                             <use xlink:href="img/icons.svg#k"></use>
                         </svg>
                     </a>
-                    <a href="#" class="headerDown__icon">
+                    <a href="#" class="headerDown__icon ">
                         <svg class="headerDown__icon-bag">
                             <use xlink:href="img/icons.svg#Bag"></use>
                         </svg>
                     </a>
-                    <a href="#" class="headerDown__icon">
+                    <a href="#" class="headerDown__icon ">
                         <svg class="headerDown__icon-search">
                             <use xlink:href="img/icons.svg#search"></use>
                         </svg>
@@ -94,13 +94,15 @@
     <!-- /header -->
     <section class="information">
         <div class="container">
-            <span class="information">31 декабря - прием и выдача заказов производиться НЕ БУДЕТ !</span>
-            <a href="#" class="information__button">Подробнее</a>
-            <a href="#" class="information__icon">
-                <svg class="information__icon-exit">
-                    <use xlink:href="img/icons.svg#exit"></use>
-                </svg>
-            </a>
+            <div class="information__wrap">
+                <span class="information__text">31 декабря - прием и выдача заказов производиться НЕ БУДЕТ !</span>
+                <a href="#" class="information__button">Подробнее</a>
+                <a href="#" class="information__icon">
+                    <svg class="information__icon-exit">
+                        <use xlink:href="img/icons.svg#exit"></use>
+                    </svg>
+                </a>
+            </div>
         </div>
         <!-- /container -->
     </section>
@@ -110,124 +112,143 @@
             <h1 class="compilation-title">Подбор багажника на крышу автомобиля</h1>
             <span class="compilation-subtitle">Подберите готовое решение багажника для установки на ваш
                 автомобиль!</span>
-        </div>
-        <div class="compilation__filter">
-            <a href="#" class="compilation__filter-rent">Арендовать</a>
-            <a href="#" class="compilation__filter-sale">Купить</a>
-            <div class="compilation__blogs">
-                <div class="compilation__blog">
-                    <div class="compilation__blog__up">
-                        <span class="compilation__blog__title">Марка </span>
-                        <svg class="arrow_down">
-                            <use xlink:href="img/icons.svg#arrow_down"></use>
-                        </svg>
-                        <svg class="arrow_up">
-                            <use xlink:href="img/icons.svg#arrow_up"></use>
-                        </svg>
+            <div class="compilation__filter">
+                <a href="#" class="compilation__filter-rent">Арендовать</a>
+                <a href="#" class="compilation__filter-sale">Купить</a>
+                <div class="compilation__blogs">
+                    <div class="compilation__blog">
+                        <div class="compilation__blog__up">
+                            <span class="compilation__blog__title">Марка </span>
+                            <svg class="arrow_down">
+                                <use xlink:href="img/icons.svg#arrow_down"></use>
+                            </svg>
+                            <svg class="arrow_up">
+                                <use xlink:href="img/icons.svg#arrow_up"></use>
+                            </svg>
+                        </div>
+                        <span class="compilation__blog-name">Mercedes-Benz</span>
                     </div>
-                    <span class="compilation__blog-name">Mercedes-Benz</span>
-                </div>
-                <div class="compilation__filter__blog">
-                    <div class="compilation__blog__up">
-                        <span class="compilation__blog__title">Модель </span>
-                        <svg class="arrow_down">
-                            <use xlink:href="img/icons.svg#arrow_down"></use>
-                        </svg>
-                        <svg class="arrow_up">
-                            <use xlink:href="img/icons.svg#arrow_up"></use>
-                        </svg>
+                    <div class="compilation__link"></div>
+                    <div class="compilation__blog">
+                        <div class="compilation__blog__up">
+                            <span class="compilation__blog__title">Модель </span>
+                            <svg class="arrow_down">
+                                <use xlink:href="img/icons.svg#arrow_down"></use>
+                            </svg>
+                            <svg class="arrow_up">
+                                <use xlink:href="img/icons.svg#arrow_up"></use>
+                            </svg>
+                        </div>
+                        <span class="compilation__blog-name">GLA-class</span>
                     </div>
-                    <span class="compilation__blog-name">GLA-class</span>
-                </div>
-                <div class="compilation__filter__blog">
-                    <div class="compilation__blog__up">
-                        <span class="compilation__blog__title">Поколение</span>
-                        <svg class="arrow_down">
-                            <use xlink:href="img/icons.svg#arrow_down"></use>
-                        </svg>
-                        <svg class="arrow_up">
-                            <use xlink:href="img/icons.svg#arrow_up"></use>
-                        </svg>
+                    <div class="compilation__link"></div>
+                    <div class="compilation__blog">
+                        <div class="compilation__blog__up">
+                            <span class="compilation__blog__title">Поколение</span>
+                            <svg class="arrow_down">
+                                <use xlink:href="img/icons.svg#arrow_down"></use>
+                            </svg>
+                            <svg class="arrow_up">
+                                <use xlink:href="img/icons.svg#arrow_up"></use>
+                            </svg>
+                        </div>
+                        <span class="compilation__blog-name">5d (H247) с рел...</span>
                     </div>
-                    <span class="compilation__blog-name">5d (H247) с рел...</span>
-                </div>
-                <div class="compilation__filter__blog">
-                    <div class="compilation__blog__up">
-                        <span class="compilation__blog__title">Дата выдачи</span>
-                        <svg class="arrow_down">
-                            <use xlink:href="img/icons.svg#arrow_down"></use>
-                        </svg>
-                        <svg class="arrow_up">
-                            <use xlink:href="img/icons.svg#arrow_up"></use>
-                        </svg>
+                    <div class="compilation__link"></div>
+                    <div class="compilation__blog">
+                        <div class="compilation__blog__up">
+                            <span class="compilation__blog__title">Дата выдачи</span>
+                            <svg class="arrow_down">
+                                <use xlink:href="img/icons.svg#arrow_down"></use>
+                            </svg>
+                            <svg class="arrow_up">
+                                <use xlink:href="img/icons.svg#arrow_up"></use>
+                            </svg>
+                        </div>
+                        <a href="#" class="compilation__blog-name">
+                            <svg class="calendar">
+                                <use xlink:href="img/icons.svg#calendar"></use>
+                            </svg>
+                            Чт, 19 авг</span>
                     </div>
-                    <span class="compilation__blog-name">Чт, 19 авг</span>
-                </div>
-                <div class="compilation__filter__blog">
-                    <div class="compilation__blog__up">
-                        <span class="compilation__blog__title">Дата возврата </span>
+                    <div class="compilation__link"></div>
+                    <div class="compilation__blog">
+                        <div class="compilation__blog__up">
+                            <a href="#" class="compilation__blog__title">
+                                
+                                Дата возврата </span>
 
+                        </div>
+                        <a href="#" class="compilation__blog-name">
+                            <svg class="calendar">
+                                <use xlink:href="img/icons.svg#calendar"></use>
+                            </svg>
+                            cб, 21 авг</span>
                     </div>
-                    <span class="compilation__blog-name">cб, 21 авг</span>
+                    <a href="#" class="compilation__filter-btn">
+                        <svg class="search_white">
+                            <use xlink:href="img/icons.svg#search_white"></use>
+                        </svg>
+                    </a>
                 </div>
+
             </div>
         </div>
-        <a href="#" class="compilation__filter-btn">
-            <svg class="search_white">
-                <use xlink:href="img/icons.svg#search_white"></use>
-            </svg>
-        </a>
+
     </section>
     <section class="rent">
-        <div class="retn__info">
+        <img class="rent-img" src="img/car.png" alt="">
+        <div class="rent__info">
             <h2 class="rent__info-tittle">Аренда</h2>
             <span class="rent__info-subtitle">Прокат качественных вещей от велокресел и самокатов до автомобильных
                 багажников и боксов на крышу</span>
             <a href="#" class="rent__info-btn">Подобрать</a>
         </div>
-        <div class="rent__slider">
+        <!-- <div class="rent__slider">
             <div class="rent__card">
                 <h2 class="rent__card-title">Автобоксы</h2>
                 <span class="rent__card-price">от 755 ₽</span>
                 <img src="img/slider_1/autobox.png" alt="Автобокс" class="rent__card-img">
             </div>
-        </div>
+        </div> -->
     </section>
 
     <section class="trunk">
-        <div class="trunk__info retn__info">
+        <img class="rent-img" src="img/car_2.png" alt="">
+        <div class="trunk__info">
             <h2 class="trunk__info-tittle rent__info-tittle">Крепления и багажники</h2>
             <span class="trunk__info-subtitle rent__info-subtitle">Прокат качественных вещей от велокресел и самокатов
                 до автомобильных багажников и боксов на крышу</span>
             <a href="#" class="trunk__info-btn rent__info-btn">Подобрать</a>
         </div>
-        <div class="trunk__slider">
+        <!-- <div class="trunk__slider">
             <div class="trunk__card">
                 <h2 class="trunk__card-title">Багажники на крышу</h2>
                 <img src="img/slider_2/lid.png" alt="Автобокс" class="trunk__card-img">
             </div>
-        </div>
+        </div> -->
     </section>
     <section class="sport">
+        <img class="rent-img" src="img/sport.png" alt="">
         <div class="sport__info retn__info">
             <h2 class="sport__info-tittle rent__info-tittle">Спорт и отдых</h2>
             <span class="sport__info-subtitle rent__info-subtitle">Прокат качественных вещей от велокресел и самокатов
                 до автомобильных багажников и боксов на крышу</span>
-            <a href="#" class="sport__info-btn rent__info-btn">Подробнее об аренде оборудования</a>
+            <a href="#" class="sport__info-btn ">Подробнее об аренде оборудования</a>
         </div>
-        <div class="sport__slider">
+        <!-- <div class="sport__slider">
             <div class="sport__card">
                 <h2 class="sport__card-title">Багажники на крышу</h2>
                 <img src="img/slider_3/bag.png" alt="Автобокс" class="sport__card-img">
             </div>
-        </div>
+        </div> -->
     </section>
     <section class="instagram">
-        <img src="" alt="" class="instagram__img">
+        <img src="img/7.Видео.png" alt="" class="instagram__img">
         <div class="instagram__wrap">
             <div class="container">
                 <h2 class="instagram-title">Наш Instagram</h2>
-                <div class="instagam__links">
+                <div class="instagram__links">
                     <a href="#" class="instagam__link">@bookingrent.ru</a>
                     <a href="#" class="instagam__link">#путешествия</a>
                 </div>
@@ -272,31 +293,30 @@
             </div>
         </div>
     </section>
-    <section class="information">
+    <section class="info">
         <div class="container">
-            <div class="information__wrap">
-                <div class="information__left">
-                    <h2 class="information__left-title">BookingRent — магазин — сервис — аренда</h2>
-                    <p class="information__left-text">Прокат качественных вещей от велокресел и самокатов
+            <div class="info__wrap">
+                <div class="info__left">
+                    <h2 class="info__left-title">BookingRent — магазин — сервис — аренда</h2>
+                    <p class="info__left-text">Прокат качественных вещей от велокресел и самокатов
                         до автомобильных багажников и боксов на крышу — растущая тенденция спроса на ближайшие года.
                         Мы гарантируем надёжное оборудование, высокое качество оказываемых работ по доступным ценам
                         и бонусную систему для постоянных клиентов.</p>
-                    <p class="information__left-text">Заняты или нет времени приехать к нам в гости за оборудованием?!
+                    <p class="info__left-text">Заняты или нет времени приехать к нам в гости за оборудованием?!
                         По вашей просьбе мы сделаем доставку в удобное время по указанному адресу. Пользуясь нашими
                         услугами, вам не придётся беспокоиться об установке, вникая во все тонкости — она бесплатная.
                         Во время оформления договора наши специалисты предложат чай или кофе, оперативно произведут
                         монтаж, проинструктируют с правилами пользования и эксплуатации снаряжения. У нас атмосфера
                         и уют. Мы не такие, как все — мы другие.</p>
-                    <p class="information__left-text">Решайте свои дела или готовьтесь в путешествие с нашим сервисом!
+                    <p class="info__left-text">Решайте свои дела или готовьтесь в путешествие с нашим сервисом!
                     </p>
                 </div>
-                <div class="information__right">
-                    <h2 class="information__right-title"></h2>
-                    <span class="information__right-subtitle"></span>
-                    <form class="information__right__form" action="" method="POST">
-                        <input type="text" class="information__right-mail" placeholder="Ваш электронный адрес"
-                            name="mail">
-                        <button class="information__right-btn">Подписаться</button>
+                <div class="info__right">
+                    <h2 class="info__right-title"></h2>
+                    <span class="info__right-subtitle"></span>
+                    <form class="info__right__form" action="" method="POST">
+                        <input type="text" class="info__right-mail" placeholder="Ваш электронный адрес" name="mail">
+                        <button class="info__right-btn">Подписаться</button>
                     </form>
                 </div>
             </div>
@@ -387,7 +407,8 @@
                         <svg class="mastercard">
                             <use xlink:href="img/icons.svg#mastercard"></use>
                         </svg>
-                        <svg class="mir" width="70" height="47" viewBox="0 0 70 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="mir" width="70" height="47" viewBox="0 0 70 47" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M58.17 14.8833H46.9395C47.5937 18.5905 51.1918 22.0796 55.117 22.0796H64.0578C64.1669 21.7525 64.1669 21.2073 64.1669 20.8802C64.1669 17.6092 61.441 14.8833 58.17 14.8833Z"
                                 fill="url(#paint0_linear)" />
@@ -418,7 +439,7 @@
                 <span class="footer__down-text">Все права защищены. 2021 © BookingRent</span>
                 <svg class="logo_foter">
                     <use xlink:href="img/icons.svg#logo_footer"></use>
-                  </svg>
+                </svg>
             </div>
         </div>
     </footer>
